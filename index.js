@@ -5,6 +5,7 @@ const port = process.env.PORT || 8080;
 let db = [
   { id: 1, name: "jack" },
   { id: 2, name: "tina" },
+  { id: 2, name: "kalle" },
 ];
 
 app.use(express.static("public"));
